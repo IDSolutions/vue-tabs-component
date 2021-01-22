@@ -1,5 +1,5 @@
 {
-  "name": "vue-tabs-component",
+  "name": "@idsolutions/vue-tabs-component",
   "version": "1.5.1",
   "description": "A Vue component to easily render tabs",
   "main": "dist/index.js",
