@@ -14,17 +14,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/spatie/vue-tabs-component.git"
+    "url": "https://github.com/idsolutions/vue-tabs-component.git"
   },
   "keywords": [
-    "spatie"
+    "idsolutions"
   ],
-  "author": "Freek Van der Herten",
+  "author": "Interactive Digital Solutions, Seth Bossingham",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/spatie/vue-tabs-component/issues"
+    "url": "https://github.com/idsolutions/vue-tabs-component/issues"
   },
-  "homepage": "https://github.com/spatie/vue-tabs-component",
+  "homepage": "https://github.com/idsolutions/vue-tabs-component",
   "peerDependencies": {
     "vue": "^2.3.0"
   },

@@ -17,6 +17,7 @@
                    class="tabs-component-tab-a"
                    role="tab"
                 ></a>
+                <span v-if="i !== (tabs.length - 1)" style="color: grey;"> | </span> 
             </li>
         </ul>
         <div class="tabs-component-panels">
@@ -177,3 +178,20 @@
         },
     };
 </script>
+
+<style scoped>
+.tabs-component-tabs {
+    padding-left: 0;
+    margin-bottom: 5px;
+}
+.tabs-component-tab {
+    display: inline;
+}
+.tabs-component-tab-a {
+    color: grey;
+    text-decoration: none;
+}
+.is-active a {
+    color:white;
+}
+</style>
