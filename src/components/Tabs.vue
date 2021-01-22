@@ -17,7 +17,7 @@
                    class="tabs-component-tab-a"
                    role="tab"
                 ></a>
-                <span v-if="i !== (tabs.length - 1)" style="color: grey;"> | </span> 
+                <span v-if="i !== (tabs.length - 1)" class="seperator"> | </span> 
             </li>
         </ul>
         <div class="tabs-component-panels">
@@ -193,5 +193,9 @@
 }
 .is-active a {
     color:white;
+}
+.seperator {
+    color: grey;
+    margin: 0 5px;
 }
 </style>

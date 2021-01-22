@@ -1,9 +1,26 @@
 {
   "name": "@idsolutions/vue-tabs-component",
   "version": "1.5.1",
-  "description": "A Vue component to easily render tabs",
+  "description": "Tab component for vue",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IDSolutions/vue-tabs-component.git"
+  },
+  "keywords": [
+    "vue",
+    "tab",
+    "idsolutions",
+    "interactive",
+    "digital",
+    "solutions"
+  ],
+  "author": "Interactive Digital Solutions, Inc.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IDSolutions/vue-tabs-component/issues"
+  },
+  "homepage": "https://github.com/IDSolutions/vue-tabs-component",
   "main": "dist/index.js",
-  "jsnext:main": "src/index.js",
   "scripts": {
     "start": "webpack-dev-server --config docs/webpack.config.js",
     "demo": "NODE_ENV=production webpack --config docs/webpack.config.js",
@@ -12,19 +29,6 @@
     "prepublish": "npm run test; npm run build",
     "test": "jest"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/idsolutions/vue-tabs-component.git"
-  },
-  "keywords": [
-    "idsolutions"
-  ],
-  "author": "Interactive Digital Solutions, Seth Bossingham",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/idsolutions/vue-tabs-component/issues"
-  },
-  "homepage": "https://github.com/idsolutions/vue-tabs-component",
   "peerDependencies": {
     "vue": "^2.3.0"
   },
@@ -60,5 +64,8 @@
   },
   "dependencies": {
     "webpack-dev-server": "^3.11.2"
+  },
+  "directories": {
+    "doc": "docs"
   }
 }
