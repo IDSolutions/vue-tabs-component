@@ -17,6 +17,7 @@
                    class="tabs-component-tab-a"
                    role="tab"
                 ></a>
+                <span v-if="i !== (tabs.length - 1)" style="color: grey;"> | </span> 
             </li>
         </ul>
         <div class="tabs-component-panels">
